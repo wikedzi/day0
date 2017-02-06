@@ -1,10 +1,10 @@
 def primeNumbers(start,end):
+    "This function prints a list of n prime number"
     if start>end:
-        tmp = start
-        start = end
-        end = tmp;
+        return 101
+    
     if start < 2:
-        return "Prime numbers starts from 2"
+        return 102 #"Prime numbers starts from 2"
     
     primes = []
     for i in range(start, end+1):
