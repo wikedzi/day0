@@ -1,0 +1,3 @@
+The prime number core function, implemnts two nested for loops. The outer for loop runs for n times where the inner loop will for each element of n 
+in the outer loop runs for n-r where r increases as we move to the next item. My asymptotic analysis for this code 
+is n(n-r)
