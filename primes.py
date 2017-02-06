@@ -1,4 +1,11 @@
 def primeNumbers(start,end):
+    if start>end:
+        tmp = start
+        start = end
+        end = tmp;
+    if start < 2:
+        return "Prime numbers starts from 2"
+    
     primes = []
     for i in range(start, end+1):
         if i==2:
